@@ -1,0 +1,7 @@
+num=14;
+
+
+if(num%2==0 && i%2==0){
+console.log("prime")
+]else {
+cosole.log("not a prime")}
