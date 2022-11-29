@@ -3,6 +3,13 @@
 
 
 let a = "raman"
-let b ="naman"
 
-console.log("yes both are palindrome");
+b="";
+for(i=a.length-1;i>=0;i--){
+b+=a[i];
+}
+ if(a==b){
+   console.log("Palindrome");
+}else{
+   console.log("Not a Palindrome");
+}
